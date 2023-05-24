@@ -1,0 +1,116 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background-color: #333;
+  padding: 30px;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.shape-info {
+  margin-bottom: 80px;
+}
+
+.shape-info-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.shape-info-image {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.shape-info-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-section {
+  flex-basis: 45%;
+}
+
+.calculator-section-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.output {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.reset-button {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #333;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.input-field {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+

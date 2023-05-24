@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kalkulator Persegi</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header-title">Kalkulator Persegi</h1>
+  </header>
+
+  <div class="container">
+    <div class="shape-info">
+      <h2 class="shape-info-title">Bujur Sangkar</h2>
+      <img src="/asset/persegi.png" alt="Bujur Sangkar" class="shape-info-image">
+      <div class="shape-info">
+        <p class="shape-info-formula">Rumus:</p>
+        <p class="shape-info-formula">Luas (L) = Sisi (S) x Sisi (S)</p>
+        <p class="shape-info-formula">Keliling (K) = 4 x Sisi (S)</p>
+      </div>
+    </div>
+
+    <div class="calculator">
+      <div class="calculator-section">
+        <h2 class="calculator-section-title">Hitung Luas Persegi</h2>
+        <form id="calculator-form">
+          <label for="sisi-luas" class="input-label">Sisi:</label>
+          <input type="number" id="sisi-luas" name="sisi-luas" required class="input-field">
+          <button type="submit" id="hitung-luas" class="button">Hitung Luas</button>
+        </form>
+        <div id="output_luas" class="output"></div>
+      </div>
+
+      <div class="calculator-section">
+        <h2 class="calculator-section-title">Hitung Keliling Persegi</h2>
+        <form id="calculator-form-keliling">
+          <label for="sisi-keliling" class="input-label">Sisi:</label>
+          <input type="number" id="sisi-keliling" name="sisi-keliling" required class="input-field">
+          <button type="submit" id="hitung-keliling" class="button">Hitung Keliling</button>
+        </form>
+        <div id="output_keliling" class="output"></div>
+      </div>
+    </div>
+    <button class="reset-button" id="reset-button">Reset</button>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
